@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Analysis Overview
-
+The company Alphabet Soup has provided some initial data which is hoped to be well-processed by a (basic) neural network to gain stronger understanding of what drives a successful loan based on such information as application types, ammount of funding asked/provided, industry affiliation, or organization type.  At the end of the model, it is hoped that a true/false classifier (sigmoid here) can determine if an application will pass or not.
 
 ## Results
 
