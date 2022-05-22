@@ -29,5 +29,5 @@ An UNRELIABLE dataset experiment is also run:  re-insert the names column from t
 
 
 ## Summary
-
+The data is quite curious in the sense that this neural network can make little performance changes short of outright eliminating (for terrible results) one of three influential columns such as the application type submitted.  Likewise, binning and un-binning the same columns makes little change of the performance as does modification of the neural networks hidden layer sizes, activation functions, or optimization algorithms.  In short, my only recommendation is to introduce a different style of netowrk such as back propigation perhaps or ideally intruce further training data that has a wider breadth of applications and results.  For a base-level investigation into chartiy networks a 73% may be useful but proper use of a neural network and satisfactory reports should not be generated at this point without further refinement.
 
