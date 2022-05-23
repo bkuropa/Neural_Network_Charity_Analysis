@@ -17,7 +17,7 @@ Model 3 carried the strongest potential by introducing the non-linear approach o
 ![Model_3](https://user-images.githubusercontent.com/19878877/169559120-d37d4bf4-f86c-43f2-8e8b-c832bbbc7fc8.png)
 For added thoroughness in understanding and analysis, model 3 also attempts to study Adam vs. Nadam vs. Adamax optimizers.  In this particular dataset, there is little to no change from 73% with optimization refinement either.
 
-Model 4 is a curiosity due to the emerging popularity of Gelu linear unit activation function.  The Gaussian Error Linear Unit uses a gated approach instead of a simple negative or positive.  Behind the scenenes, there should also be a Tanh portion incorporated into its function as well. 
+Model 4 is a curiosity due to the emerging popularity of Gelu linear unit activation function.  The Gaussian Error Linear Unit uses a gated approach instead of a simple negative or positive.  Behind the scenes, there should also be a Tanh contribution incorporated into its function as well. 
 ![Model_4](https://user-images.githubusercontent.com/19878877/169559154-61dbb41e-1a8c-42cb-99b1-46beae9f0815.png)
 Although, quite efficient at reaching 0.739, it unsurprisingly flattens out like those attemps made before it.  This dataset in its current form, cannot show much improvement without perhaps a backwards propigation or hopefully a larger set of input data.
 
